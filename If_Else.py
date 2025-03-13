@@ -153,3 +153,29 @@
 # my_favourite_num = 3.1415
 
 
+name1=input("enter your name: ")
+name2=input("enter your frens name: ")
+name=name1+name2
+print(name)
+lower_name=name.lower()
+t=lower_name.count('t')
+r=lower_name.count('r')
+u=lower_name.count('u')
+e=lower_name.count('e')
+first_digit=t+r+u+e
+l=lower_name.count('l')
+o=lower_name.count('o')
+v=lower_name.count('v')
+e=lower_name.count('e')
+second_digit=l+o+v+e
+num=int(str(first_digit)+str(second_digit))
+print(num)
+if num<10 or num>90:
+    print("Great Couple!!")
+elif num>=40 and num<=50:
+    print("alrite together")
+else:
+    print("Not a Couple")
+
+
+
